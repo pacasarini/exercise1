@@ -1,4 +1,5 @@
 import Calculadora.Calculadora;
+import Mensagem.Mensagem;
 
 public class Main {
     public static void main(String[] args){
@@ -10,5 +11,11 @@ public class Main {
         Calculadora.multiplicacao(3, 3.5);
         Calculadora.divisao(6.6, 3);
 
+
+        //Mensagem
+        System.out.println("Exercício Mensagem:");
+        Mensagem.obterMensagem(9);
+        Mensagem.obterMensagem(13);
+        Mensagem.obterMensagem(20);
     }
 }
